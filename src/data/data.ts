@@ -257,16 +257,16 @@ const portfolioData: PortfolioData = {
       ],
       image: "🏡",
       color: "#6C63FF",
-      demo: "https://cmtan.id.vn/",
+      demo: "https://datn-fe-ashy.vercel.app/home",
       github: "https://github.com/cmtan04",
       githubLinks: [
         {
           label: "Frontend Repo",
-          url: "https://github.com/cmtan04",
+          url: "https://github.com/cmtan04/DATN-FE",
         },
         {
           label: "Backend Repo",
-          url: "https://github.com/cmtan04",
+          url: "https://github.com/cmtan04/DATN-BE",
         },
       ],
       featured: true,
@@ -293,12 +293,12 @@ const portfolioData: PortfolioData = {
       github: "https://github.com/cmtan04",
       githubLinks: [
         {
-          label: "Frontend Repo (React 19 & Socket.IO)",
-          url: "https://github.com/cmtan04",
+          label: "Frontend Repo",
+          url: "https://github.com/DuckThuong/fe-bookings",
         },
         {
-          label: "Backend Repo (NestJS 11 & Resend API)",
-          url: "https://github.com/cmtan04",
+          label: "Backend Repo",
+          url: "https://github.com/DuckThuong/be-bookings",
         },
       ],
       featured: true,
