@@ -1,5 +1,5 @@
 import avatarPhoto from "./avatar.jpg";
-import cvPdf from "./CV_FullStack_Cao_Manh_Tan.pdf";
+import cvPdf from "./CV_Fullstack_Cao_Manh_Tan.pdf";
 
 // ─── INTERFACES ──────────────────────────────────────────────────────────────
 
