@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Portfolio logo">
+  <defs>
+    <linearGradient id="pf-grad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#4ECDC4"/>
+    </linearGradient>
+    <linearGradient id="pf-shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="pf-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer ring -->
+  <circle cx="32" cy="32" r="28" fill="#0a0a14"/>
+  <circle cx="32" cy="32" r="28" fill="none" stroke="url(#pf-grad)" stroke-width="2.5" opacity="0.9"/>
+
+  <!-- Portfolio window -->
+  <rect x="16" y="18" width="32" height="28" rx="6" fill="#12121f" stroke="url(#pf-grad)" stroke-width="1.75"/>
+  <rect x="16" y="18" width="32" height="8" rx="6" fill="url(#pf-shine)"/>
+
+  <!-- Window dots -->
+  <circle cx="22" cy="22" r="1.6" fill="#FF6B6B"/>
+  <circle cx="27" cy="22" r="1.6" fill="#F7DF1E"/>
+  <circle cx="32" cy="22" r="1.6" fill="#4ECDC4"/>
+
+  <!-- Code mark </> -->
+  <path
+    d="M24 38 L19 32 L24 26"
+    fill="none"
+    stroke="#6C63FF"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M40 38 L45 32 L40 26"
+    fill="none"
+    stroke="#4ECDC4"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M35 40 L29 24"
+    fill="none"
+    stroke="url(#pf-grad)"
+    stroke-width="2"
+    stroke-linecap="round"
+    opacity="0.85"
+  />
+
+  <!-- Accent spark -->
+  <circle cx="48" cy="16" r="2" fill="#4ECDC4" filter="url(#pf-glow)" opacity="0.9"/>
+</svg>
