@@ -183,33 +183,30 @@ const portfolioData: PortfolioData = {
   skills: {
     technical: [
       // --- 1. CORE STACK (NỀN TẢNG CHÍNH: 78% - 82%) ---
-      { name: "NestJS 11", level: 82, color: "#E0234E" },
+      { name: "NestJS 11", level: 80, color: "#E0234E" },
       { name: "ReactJS (18/19)", level: 80, color: "#61DAFB" },
-      { name: "TypeScript", level: 80, color: "#3178C6" },
-      { name: "Node.js", level: 75, color: "#339933" },
-      { name: "HTML5 / CSS3 / SCSS", level: 78, color: "#E34F26" },
-
-      // --- 2. ADVANCED PATTERNS (ĐIỂM SÁNG KỸ THUẬT: 80% - 85%) ---
-      // Điểm cao nhất 85% dành cho kỹ thuật khó nhất bạn đã tự giải quyết
-      { name: "Atomic Locking & Transactions", level: 85, color: "#8E44AD" },
-      { name: "TanStack Query v5 (Cache Sync)", level: 82, color: "#FF4154" },
+      { name: "TypeScript", level: 82, color: "#3178C6" },
+      { name: "Node.js", level: 78, color: "#339933" },
+      { name: "HTML5 / CSS3 / SCSS", level: 82, color: "#E34F26" },
+      { name: "TanStack Query v5", level: 82, color: "#FF4154" },
       {
-        name: "Axios Client (Silent Refresh Queue)",
-        level: 82,
+        name: "Axios/API Integration",
+        level: 80,
         color: "#5A29E4",
       },
-      { name: "payOS & Webhook Idempotency", level: 80, color: "#00D26A" },
-      { name: "Dual JWT & Token Blacklist", level: 78, color: "#D35400" },
-
-      // --- 3. DATABASE & REALTIME (75% - 76%) ---
-      { name: "MySQL 8.0", level: 76, color: "#00758F" },
-      { name: "Server-Sent Events (SSE)", level: 76, color: "#00B4D8" },
+      { name: "MySQL 8.0", level: 75, color: "#00758F" },
       { name: "TypeORM & Migrations", level: 75, color: "#FE0C05" },
+      { name: "Zustand", level: 72, color: "#443E38" },
+      { name: "Ant Design (antd)", level: 72, color: "#147F92" },
 
-      // --- 4. UI LIBS & INTEGRATIONS (70% - 72%) ---
-      { name: "Zustand (Draft Booking Store)", level: 72, color: "#443E38" },
-      { name: "Ant Design (antd)", level: 70, color: "#147F92" },
-      { name: "Leaflet Interactive Maps", level: 70, color: "#199900" },
+      { name: "RESTful API Design", level: 82, color: "#FF4154" },
+
+      { name: "Atomic Locking & Transactions", level: 85, color: "#8E44AD" },
+      { name: "Webhook Handling", level: 80, color: "#00D26A" },
+      { name: "RBAC & Permission", level: 80, color: "#D35400" },
+      { name: "JWT Authentication", level: 78, color: "#FF4154" },
+      { name: "Server-Sent Events (SSE)", level: 75, color: "#00B4D8" },
+      { name: "Socket.IO", level: 40, color: "#9945FF" },
     ],
 
     tools: [
@@ -220,9 +217,13 @@ const portfolioData: PortfolioData = {
       "VS Code",
       "Swagger / OpenAPI 3.0",
       "Jira",
-      "Cloudinary",
-      "Ngrok",
       "Figma",
+      "Cloudinary",
+      "payOS",
+      "Nodemailer",
+      "Leaflet",
+      "Ngrok",
+      "Cron job",
     ],
 
     soft: [
@@ -249,11 +250,11 @@ const portfolioData: PortfolioData = {
         "TypeORM",
         "TanStack Query v5",
         "Zustand",
+        "Ant Design",
         "payOS",
         "SSE",
-        "Leaflet",
-        "RBAC",
         "Nodemailer",
+        "Leaflet",
       ],
       image: "🏡",
       color: "#6C63FF",
